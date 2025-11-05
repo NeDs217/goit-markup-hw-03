@@ -195,6 +195,14 @@ nav {
 
 /* #region feature */
 
+
+.feature-container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
 .feature {
     color: #2E2F42;
     background-color: #FFFFFF;
@@ -289,7 +297,7 @@ nav {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list img {
