@@ -73,11 +73,23 @@ button {
 
 /* #region header */
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1158px;
+    padding: 0 15px;
+    gap: 332px;
+    margin: 0 auto;
+}
+
+.header-sect {
+    border-bottom: 1px solid #e7e9fc
+}
+
 nav {
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding: 24px 0 24px 156px;
 }
 .main-address {
     text-decoration: none;
@@ -91,6 +103,8 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
+    display: flex;
 }
 .accent {
     color: #2e2f42;
@@ -111,7 +125,6 @@ nav {
 .adress-list {
         display: flex;
         gap: 40px;
-        padding-right: 156px;
 }
 .adress-list .link {
     color: #434455;
@@ -124,26 +137,21 @@ nav {
     color: #404BBF;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 /* #endregion header */
 
 /* #region hero */
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0
 }
 
 .hero-container {
-    height: 600px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     gap: 48px;
-    padding: 188px 472px;
 }
 
 .hero-title {
@@ -152,7 +160,7 @@ nav {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 }
 
@@ -164,9 +172,12 @@ nav {
     color: #FFFFFF;
     font-weight: 500;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .hero-button:hover,
