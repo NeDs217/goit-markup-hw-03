@@ -65,6 +65,12 @@ button {
     cursor: pointer;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -94,7 +100,6 @@ nav {
 .main-address {
     text-decoration: none;
     font-style: none;
-    padding: 24px 0;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -374,7 +379,6 @@ nav {
 
 .portfolio-list-item {
     background-color: #ffffff;
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
     box-sizing: border-box;
 }
